@@ -1,0 +1,36 @@
+include _assets/bemto/bemto
+- set_bemto_settings({modifier:"--"})
+
+include head/head
+include header/header
+include header-line/header-line
+
+doctype html
+html(lang="ru")
+
+    block head
+        head
+            +head({
+                "title":"Animals",
+                "author": "Helene"
+            })
+        body
+            header-line
+                +header-line()
+            header
+                +header()
+            block content
+                div content
+
+            block footer
+                footer footer
+
+            block vendors
+                //build: js js/vendor.js
+                script(src="libs/jquery/dist/jquery.min.js")
+                //endbuild
+
+            block scripts
+                //build: js/main.js
+                script(src="js/main.js")
+                //endbuild
