@@ -1,0 +1,120 @@
+@media screen and (max-width: 1500px)
+  .animals
+    &-header
+      &__text
+        font-size: large
+  .contact
+    &-info
+      +col(6)
+    &-send
+      +col(6)
+@media screen and (max-width: 1200px)
+  .animals
+    &-header
+      &__text
+        font-size: large
+
+
+@media screen and (max-width: 1024px )
+  .header
+    &__btn
+        display: none
+  .intro
+    height: 450px
+  .animals
+    font-size: large
+  .contact
+    height: 380px
+
+@media screen and (max-width: 767px)
+  .header
+    &-logo
+      &__img
+        height: 45px
+    &-menu
+      display: block
+      &__img
+        width: 45px
+    &-nav
+      position: absolute
+      background-color: $main-color
+      width: 200px
+      height: 100%
+      top: 0
+      left: -200px
+      z-index: 10
+      transition: 1s
+      &__link
+        color: $font-color-light
+        font-weight: 900
+        text-decoration: none
+      &__item
+        display: block
+        padding: 15px
+        border-bottom: 1px solid $font-color-light
+    &__btn
+      display: none
+  .intro
+    height: 400px
+    &__stat
+      display: none
+    &__info
+      +col(12)
+    &-info
+      margin: 0 auto
+      width: 90%
+  .animals
+    &-header
+      &__text
+        font-size: small
+        width: 90%
+        margin: 0 auto
+  .contact
+    height: 340px
+
+
+@media screen and (max-width: 650px)
+  .header
+    &-logo
+      &__img
+        height: 40px
+    &-menu
+      &__img
+        width: 40px
+  .intro
+    height: 400px
+  .about
+    &__foto
+      display: none
+    &__info
+      +col(12)
+    &-info
+      justify-content: center
+      align-items: center
+  .animals
+    &-item
+      +col(6)
+  .contact
+    padding: 25px 0
+    height: auto
+    &-info
+      +col(12)
+    &-send
+      +col(12)
+    &-info
+      align-items: left
+    &-send
+      align-items: left
+  .footer
+    &-nav
+      display: none
+@media screen and (max-width: 486px)
+  .head-line
+    display: none
+  .intro
+    height: 340px
+
+@media screen and (max-width: 375px)
+
+  .intro
+    height: 270px

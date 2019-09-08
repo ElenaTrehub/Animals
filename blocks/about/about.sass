@@ -1,0 +1,29 @@
+.about
+  margin: 9% auto
+  &__container
+    +container()
+  &__foto
+    +col(6)
+  &__foto
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &__info
+    +col(6)
+  &-info
+    display: flex
+    margin-top: 2%
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    &__text
+      line-height: 1.3em
+      text-align: justify
+      margin-bottom: 5%
+  &-image
+    width: 100%
+    position: relative
+    &__img
+      display: inline-block
+      max-width: 100%
+      height: auto

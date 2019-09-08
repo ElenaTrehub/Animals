@@ -1,0 +1,15 @@
+mixin contact()
+    +b.SECTION.contact
+        +e.A(name="contact")
+        +e.DIV.container
+            +b.DIV.contact-header
+                +title({"text": "Contact"})
+                +e.P.text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            +b.DIV.contact-info
+                +e.P.text Phone: +3 968 592 85 45
+                +e.P.text Email: piff_animal@gmail.com
+                +e.P.text Address: Kiev, Peremogi str, 7
+            +b.DIV.contact-send
+                +e.INPUT.input(type="email" placeholder="Email...")
+                +e.TEXTAREA.textarea(rows="5" placeholder="Your letter...")
+                +b.BUTTON.btn Send

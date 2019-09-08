@@ -7,6 +7,7 @@ $_md: "(max-width: 1024px)"
 $lg: "(min-width: 1200px)"
 $xlg: "(min-width: 1500px)"
 
+
 $cols: 12
 $gutter: 40px
 $col: calc( 100% / #{$cols} )
@@ -16,17 +17,22 @@ $col: calc( 100% / #{$cols} )
   margin: 0 auto
   box-sizing: border-box
   display: flex
+  overflow: hidden
   @media #{$xxs}
     width: 100%
     padding: 0 15px
+    font-size: small
   @media #{$sm}
     width: 750px
+    font-size: large
   @media #{$md}
     width: 970px
+    font-size: large
   @media #{$lg}
     width: 1170px
+    font-size: large
 
-=container($align:space-between, $wrap:wrap)
+=container($align: space-between, $wrap:wrap)
   @extend %container
   justify-content: $align
   flex-wrap: $wrap

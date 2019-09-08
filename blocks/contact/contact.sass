@@ -1,0 +1,65 @@
+.contact
+  height: 450px
+  display: flex
+  align-items: center
+  background-color: $main-color
+  color: #fff
+  position: relative
+  z-index: 1
+  &::after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url("../img/contact.jpg")
+    background-size: cover
+    z-index: -1
+    opacity: .91
+    mix-blend-mode: overlay
+  &__container
+    +container()
+  &-header
+    +col(12)
+  &-header
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 2% auto
+    &__text
+      margin: 1% auto
+      line-height: 1.3em
+      text-align: center
+  &-info
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-content: flex-start
+    align-items: flex-start
+    &__text
+      margin: 2% 0
+      line-height: 1.3em
+      text-align: left
+  &-send
+    margin: 2% 0
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-content: flex-start
+    align-items: flex-start
+    &__input
+      width: 90%
+      color: $accent-gradient
+      padding: 1%
+      font-family: $main-font
+      font-size: 16px
+    &__textarea
+      width: 90%
+      margin: 2% 0
+      color: $accent-gradient
+      padding: 1%
+      font-family: $main-font
+      font-size: 16px

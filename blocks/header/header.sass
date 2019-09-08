@@ -1,0 +1,42 @@
+.header
+  padding: 15px 0
+  &__container
+    +container()
+  &__logo
+    +col(2)
+  &__btn
+    +col(3)
+  &-mask
+    display: none
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1000
+    width: 100%
+    height: 100%
+    background: rgba(255, 255, 255, 0.7)
+    z-index: 5
+  &__btn
+    text-align: right
+  &__nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-menu
+    display: none
+    padding: 5px 10px
+    cursor: pointer
+  &__btn
+    display: flex
+    justify-content: flex-end
+    align-items: center
+  &-nav
+    &__link
+      color: $font-color-dark
+      font-weight: 900
+      text-decoration: none
+      &:hover
+        color: $accent-gradient
+    &__item
+      display: inline-block
+      padding: 0 15px

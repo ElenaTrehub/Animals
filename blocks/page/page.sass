@@ -1,0 +1,61 @@
+.page
+  font-family: $main-font
+  font-weight: 500
+  color: $font-color-dark
+  font-size: 18px
+  &_wrap
+    min-width: 320px
+    max-width: 1920px
+    margin: 0 auto
+.btn
+  display: block
+  padding: 0
+  border: none
+  width: 261px
+  height: 50px
+  line-height: 50px * 0.95
+  @media screen and (max-width: 650px)
+    width: 170px
+    height: 30px
+    line-height: 30px * 0.95
+  box-sizing: border-box
+  position: relative
+  background: $accent-gradient
+  border-radius: 100px
+  text-align: center
+  color: #fff
+  font-weight: 600
+  font-size: 16px
+  outline: none
+  cursor: pointer
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 10%
+    width: 80%
+    height: 95%
+    box-shadow: 0 3px 14px  0 rgba(255, 255, 255, 0.21)
+    z-index: -1
+    transition: all .3s
+  &:active
+    &::after
+      box-shadow: 0 1px 6px  0 rgba(255, 255, 143, 0.21)
+  &--header
+    border: 2px solid #cb8933
+    background: transparent
+    width: 200px
+    height: 40px
+    line-height: 40px
+    color: $font-color-dark
+    display: inline-block
+    transition: all .3s
+    &::after
+      opacity: 0
+    &:hover
+      background: $accent-gradient
+      color: #fff
+      &::after
+        opacity: 1
+
+

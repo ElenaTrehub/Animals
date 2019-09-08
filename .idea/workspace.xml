@@ -1,65 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="453821b0-6627-418d-ac08-727fd484a19f" name="Default Changelist" comment="" />
+    <list default="true" id="453821b0-6627-418d-ac08-727fd484a19f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/lato.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavyitalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavyitalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latoheavyitalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomedium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomedium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomediumitalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomediumitalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Lato/latomediumitalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/_assets/bemto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/about/about.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/about/about.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/animals/animals.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/animals/animals.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/contact/contact.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/contact/contact.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/intro/intro.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/intro/intro.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/media/media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/page.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/title/title.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/title/title.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/volunteers/volunteers.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/volunteers/volunteers.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_custom_tag.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_tag.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_tag.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_tag.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/helpers.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/lib/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/settings.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/settings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/lib/settings.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/lib/tag_metadata.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/test/cases/3_context.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/test/cases/3_context.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_assets/bemto/test/cases/6_block_layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_assets/bemto/test/cases/6_block_layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_base/fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_base/fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_base/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_base/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_base/reset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_base/reset.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/_base/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/_base/variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/head/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/head/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header-line/header-line.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header-line/header-line.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header-line/header-line.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header-line/header-line.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/template.pug" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/template.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="media.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks/media/media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="volunteers.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks/volunteers/volunteers.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks/template.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" selection-start-line="5" selection-end-line="6" />
+            <state relative-caret-position="78">
+              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto.pug">
+      <file leaf-file-name="contact.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blocks/contact/contact.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/settings.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/tag_metadata.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_tag.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/header-line/header-line.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -69,25 +144,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Pug File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>owl-nav</find>
+      <find>font</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/blocks/index.pug" />
-        <option value="$PROJECT_DIR$/blocks/head/head.pug" />
-        <option value="$PROJECT_DIR$/blocks/_base/fonts.sass" />
-        <option value="$PROJECT_DIR$/blocks/_base/reset.sass" />
-        <option value="$PROJECT_DIR$/blocks/_base/variables.sass" />
-        <option value="$PROJECT_DIR$/blocks/main.sass" />
-        <option value="$PROJECT_DIR$/blocks/_base/grid.sass" />
-        <option value="$PROJECT_DIR$/blocks/header/header.pug" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto.pug" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/bemto_custom_tag.pug" />
@@ -95,30 +172,88 @@
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/helpers.pug" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/index.pug" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/blocks/template.pug" />
         <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/blocks/header-line/header-line.pug" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/settings.pug" />
         <option value="$PROJECT_DIR$/blocks/_assets/bemto/lib/tag_metadata.pug" />
+        <option value="$PROJECT_DIR$/app/css/main.sass" />
+        <option value="$PROJECT_DIR$/app/css/main.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/blocks/title/title.pug" />
+        <option value="$PROJECT_DIR$/blocks/header-line/header-line.sass" />
+        <option value="$PROJECT_DIR$/blocks/_base/fonts.sass" />
+        <option value="$PROJECT_DIR$/blocks/_base/variables.sass" />
+        <option value="$PROJECT_DIR$/blocks/header/header.pug" />
+        <option value="$PROJECT_DIR$/blocks/_base/reset.sass" />
+        <option value="$PROJECT_DIR$/blocks/header/header.sass" />
+        <option value="$PROJECT_DIR$/blocks/intro/intro.sass" />
+        <option value="$PROJECT_DIR$/blocks/title/title.sass" />
+        <option value="$PROJECT_DIR$/blocks/intro/intro.pug" />
+        <option value="$PROJECT_DIR$/blocks/animals/animals.sass" />
+        <option value="$PROJECT_DIR$/blocks/head/head.pug" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
+        <option value="$PROJECT_DIR$/app/libs/owl.carousel/dist/assets/owl.carousel.css" />
+        <option value="$PROJECT_DIR$/blocks/volunteers/volunteers.sass" />
+        <option value="$PROJECT_DIR$/app/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/blocks/index.pug" />
+        <option value="$PROJECT_DIR$/blocks/_base/grid.sass" />
+        <option value="$PROJECT_DIR$/blocks/contact/contact.sass" />
+        <option value="$PROJECT_DIR$/blocks/page/page.sass" />
+        <option value="$PROJECT_DIR$/blocks/main.sass" />
+        <option value="$PROJECT_DIR$/blocks/contact-item/contact-item.sass" />
+        <option value="$PROJECT_DIR$/blocks/contact-item/contact-item.pug" />
+        <option value="$PROJECT_DIR$/blocks/footer/footer.sass" />
+        <option value="$PROJECT_DIR$/blocks/footer/footer.pug" />
+        <option value="$PROJECT_DIR$/blocks/header-line/header-line.pug" />
+        <option value="$PROJECT_DIR$/blocks/media/media.sass" />
+        <option value="$PROJECT_DIR$/blocks/about/about.pug" />
+        <option value="$PROJECT_DIR$/blocks/animals/animals.pug" />
+        <option value="$PROJECT_DIR$/blocks/about/about.sass" />
+        <option value="$PROJECT_DIR$/blocks/volunteers/volunteers.pug" />
+        <option value="$PROJECT_DIR$/blocks/template.pug" />
+        <option value="$PROJECT_DIR$/blocks/contact/contact.pug" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/libs/jquery/package.json" />
+      <path value="$PROJECT_DIR$/app/libs/material-design-icons/package.json" />
+      <path value="$PROJECT_DIR$/app/libs/owl.carousel/package.json" />
+      <path value="$PROJECT_DIR$/blocks/_assets/bemto/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="625" />
-    <option name="y" value="203" />
-    <option name="width" value="1339" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1383" />
     <option name="height" value="720" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,47 +264,47 @@
             <path>
               <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
               <item name="Animals" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Animals" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
               <item name="Animals" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
               <item name="Animals" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="_assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bemto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Animals" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="_assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bemto" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Animals" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="header-line" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Animals\app\libs" />
+      <recent name="C:\xampp\htdocs\Animals\blocks\_assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,115 +329,85 @@
       <option name="presentableId" value="Default" />
       <updated>1550821114602</updated>
       <workItem from="1550821117357" duration="13999000" />
-      <workItem from="1551082768727" duration="18472000" />
+      <workItem from="1551082768727" duration="41343000" />
+      <workItem from="1551256001799" duration="69453000" />
+      <workItem from="1551615517279" duration="3982000" />
+      <workItem from="1552042929556" duration="11346000" />
+      <workItem from="1552497561515" duration="556000" />
+      <workItem from="1552899417752" duration="67000" />
+      <workItem from="1552979894150" duration="174000" />
+      <workItem from="1552980572148" duration="158000" />
+      <workItem from="1552980969094" duration="9000" />
+      <workItem from="1566319828430" duration="1537000" />
+      <workItem from="1566380827504" duration="294000" />
+      <workItem from="1566383159226" duration="2396000" />
+      <workItem from="1566398846508" duration="710000" />
+      <workItem from="1566405134502" duration="627000" />
+      <workItem from="1566555359610" duration="3541000" />
+      <workItem from="1567855894559" duration="1384000" />
+      <workItem from="1567932268848" duration="11893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32471000" />
+    <option name="totallyTimeSpent" value="163469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31026787" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.32761577" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31026787" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.32761577" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_base/reset.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_base/variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_base/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/header/header.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_base/grid.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/head/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/header/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/header-line/header-line.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/helpers.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/lib/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -324,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/bemto.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -338,27 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="66" column="28" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="48" column="86" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/header-line/header-line.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -397,10 +474,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/template.pug">
+    <entry file="file://$PROJECT_DIR$/app/css/main.sass" />
+    <entry file="file://$PROJECT_DIR$/app/img/intro.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/title/title.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/title/title.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/about.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/head/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/owl.carousel/dist/assets/owl.carousel.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1367" selection-start-line="5" selection-start-column="1367" selection-end-line="5" selection-end-column="1367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/owl.carousel/dist/assets/owl.carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/animals/animals.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/intro/intro.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/_base/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/_base/reset.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/volunteers/volunteers.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/_base/grid.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/page/page.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/contact-item/contact-item.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/contact-item/contact-item.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/intro/intro.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/_base/variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/contact/contact.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/_assets/bemto/bemto.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/header-line/header-line.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/header/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/footer/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/footer/footer.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/media/media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/animals/animals.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/about/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/about/about.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/header-line/header-line.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/header/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/volunteers/volunteers.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/template.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/contact/contact.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>

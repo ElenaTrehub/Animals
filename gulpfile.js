@@ -15,7 +15,8 @@ const useref = require('gulp-useref'),
       uglify = require('gulp-uglify'),
       rimraf = require('rimraf'),
       notify = require("gulp-notify"),
-      ftp = require( 'vinyl-ftp' );
+      ftp = require( 'vinyl-ftp' ),
+      rename = require('gulp-rename');
 
 const paths = {
     blocks: "blocks/",
@@ -36,10 +37,11 @@ gulp.task('pug', function(){
 gulp.task('sass', function(){
     return gulp.src(paths.blocks + '*.sass')
         .pipe(plumber())
-        //.pipe(sass().on('error', sass.logError()))
-        .pipe(prefix({
-            browsers: ['last 10 versions'],
-            cascade: true
+        .pipe(sass().on('error', sass.logError))
+        .pipe(rename({
+            dirname: "",
+            basename: "main",
+            extname: ".css"
         }))
         .pipe(gulp.dest(paths.devDir + 'css/'))
         .pipe(browserSync.stream())

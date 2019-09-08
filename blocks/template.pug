@@ -4,6 +4,13 @@ include _assets/bemto/bemto
 include head/head
 include header/header
 include header-line/header-line
+include title/title
+include intro/intro
+include about/about
+include animals/animals
+include volunteers/volunteers
+include contact/contact
+include footer/footer
 
 doctype html
 html(lang="ru")
@@ -14,20 +21,68 @@ html(lang="ru")
                 "title":"Animals",
                 "author": "Helene"
             })
-        body
-            header-line
-                +header-line()
-            header
-                +header()
-            block content
-                div content
+        +b.BODY.page
+            +e.DIV.wrap
+                header-line
+                    +header-line()
+                header
+                    +header({
+                        "menu":[
+                            {
+                                "text": "Home",
+                                "href": "index.html"
+                            },
+                            {
+                                "text": "About",
+                                "href": "#about"
+                            },
+                            {
+                                "text": "Our animals",
+                                "href": "#animals"
+                            },
+                            {
+                                "text": "Volunteers",
+                                "href": "#volunteers"
+                            },
+                            {
+                                "text": "Contacts",
+                                "href": "#contact"
+                            }
+                        ]
+                    })
+                block content
+                    div content
 
-            block footer
-                footer footer
+                footer
+                    +footer({
+                        "menu": [
+                            {
+                                "text": "Home",
+                                "href": "index.html"
+                            },
+                            {
+                                "text": "About",
+                                "href": "#about"
+                            },
+                            {
+                                "text": "Our animals",
+                                "href": "#animals"
+                            },
+                            {
+                                "text": "Volunteers",
+                                "href": "#volunteers"
+                            },
+                            {
+                                "text": "Contacts",
+                                "href": "#contact"
+                            }
+                        ]
+                    })
 
             block vendors
                 //build: js js/vendor.js
                 script(src="libs/jquery/dist/jquery.min.js")
+                script(src="libs/owl.carousel/dist/owl.carousel.min.js")
                 //endbuild
 
             block scripts

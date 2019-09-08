@@ -1,0 +1,19 @@
+mixin footer(data)
+    +b.SECTION.footer
+        +e.DIV.container
+            +e.DIV.info
+                +b.DIV.info
+                    +b.DIV.head-line-item
+                        +e.I.icon(class="mdi mdi-map-marker")
+                        | Kiev, Peremogi str, 7
+                    +b.DIV.head-line-item
+                        +e.I.icon(class="mdi mdi-phone")
+                        | +3 968 592 85 45
+                    +b.DIV.head-line-item
+                        +e.I.icon(class="mdi mdi-email-outline")
+                        | piff_animal@gmail.com
+            +e.DIV.nav
+                +b.UL.footer-nav
+                    each item in data.menu
+                        +e.LI.item
+                            +e.A.link(href=item.href)= item.text

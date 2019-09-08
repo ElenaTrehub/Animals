@@ -1,0 +1,69 @@
+.title
+  &__text
+    font-weight: 900
+    text-transform: uppercase
+    &:before
+      content: ''
+      display: block
+      opacity: 0.5
+      border-radius: 2px
+      background: $accent-gradient
+
+
+@media screen and (max-width: 1500px)
+  .title
+    &__text
+      font-size: 50px
+      line-height: 1.4
+      letter-spacing: 2.6px
+      &:before
+        width: 60px
+        height: 10px
+
+@media screen and (max-width: 1024px )
+  .title
+    &__text
+      font-size: 50px
+      line-height: 1.4
+      letter-spacing: 2.6px
+      &:before
+        width: 60px
+        height: 10px
+
+@media screen and (max-width: 768px)
+  .title
+    &__text
+      font-size: 36px
+      line-height: 1.2
+      letter-spacing: 2.0px
+      &:before
+        width: 40px
+        height: 8px
+@media screen and (max-width: 650px)
+  .title
+    &__text
+      font-size: 32px
+      line-height: 1.2
+      letter-spacing: 2.0px
+      &:before
+        width: 40px
+        height: 8px
+@media screen and (max-width: 486px)
+  .title
+    &__text
+      font-size: 24px
+      line-height: 1.0
+      letter-spacing: 1.0px
+      &:before
+        width: 40px
+        height: 8px
+
+@media screen and (max-width: 375px)
+  .title
+    &__text
+      font-size: 20px
+      line-height: 1.0
+      letter-spacing: 1.0px
+      &:before
+        width: 40px
+        height: 8px

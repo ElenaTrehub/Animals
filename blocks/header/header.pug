@@ -1,2 +1,16 @@
-mixin header()
-    h1 header
+mixin header(data)
+    +b.HEADER.header
+        +e.DIV.container
+            +e.DIV.logo
+                +b.A.header-logo(href="#")
+                    +e.IMG.img(src="img/logo.jpg")
+            +e.DIV.nav
+                +b.DIV.header-mask
+                +b.A.header-menu(href="#" id="pull")
+                    +e.IMG.img(src="img/menu.png")
+                +b.UL.header-nav
+                    each item in data.menu
+                        +e.LI.item
+                            +e.A.link(href=item.href)= item.text
+            +e.DIV.btn
+                +b.BUTTON.btn(class="--header") Donate now

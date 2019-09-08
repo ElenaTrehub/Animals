@@ -1,0 +1,32 @@
+.volunteers
+  &__container
+    +container()
+  &-header
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 2% auto
+    &__text
+      margin: 1% auto
+      line-height: 1.3em
+      text-align: center
+  &-item
+    &__img
+      max-width: 100%
+      height: auto
+      margin-bottom: 8%
+    &__title
+      margin: 2% auto
+      font-weight: 900
+      text-align: center
+    &__text
+      margin: 2% auto
+      text-align: justify
+    &__more
+      margin: 2% auto
+      text-align: right
+      color: $accent-gradient
+      &:hover
+        color: $main-color
